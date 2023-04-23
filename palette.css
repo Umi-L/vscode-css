@@ -1,0 +1,38 @@
+.quick-input-widget {
+    width: 650px;
+    margin-left: -325px !important;
+    top: 50% !important;
+    padding: 5px !important;
+    background-color: var(--vscode-quickInput-background) !important;
+    border-radius: 5px !important;
+    transform: translateY(-50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 0 0 100vw rgba(0, 0, 0, 0.12) !important;
+}
+
+.quick-input-widget .quick-input-header {
+    padding: 0px !important;
+    margin-bottom: 10px;
+}
+
+.quick-input-widget .monaco-inputbox {
+    padding: 10px !important;
+    border-radius: 5px !important;
+}
+
+.quick-input-widget .quick-input-list-entry {
+    position: relative;
+    padding: 0 5px 0px 15px;
+}
+
+.quick-input-widget .quick-input-list-entry .codicon[class*=codicon-] {
+    font-size: 12px;
+}
+
+.quick-input-widget .quick-input-list-entry .monaco-action-bar {
+    position: absolute;
+    left: 0;
+}
+
+.quick-input-widget .quick-input-list .quick-input-list-entry.quick-input-list-separator-border {
+    border-top-width: 0px !important;
+}
